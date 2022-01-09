@@ -1,0 +1,23 @@
+My SQL :
+用户名: root
+密码: 11111111
+
+前端域名：http://localhost:4200
+后端域名：http://localhost:8080
+
+
+API网站：postman
+https://www.postman.com/
+
+Json格式控制台：Httpie
+https://httpie.io/
+
+前端模板来源：https://www.bootdey.com/snippets/view/bs4-contact-cards
+
+{
+	"email": "hello@gmail.com",
+	"imgUrl": "http://bootdey.com",
+	"jobTitle": "JavaScript",
+	"name": "myname",
+	"phone": "123456"
+}
