@@ -5,12 +5,27 @@ My SQL :
 前端域名：http://localhost:4200
 后端域名：http://localhost:8080
 
+Mysql在控制台中的启动命令：
+/usr/local/mysql/bin/mysql -u root -p
+
 
 API网站：postman
 https://www.postman.com/
 
 Json格式控制台：Httpie
 https://httpie.io/
+
+Npm权限问题：https://www.kancloud.cn/shellway/npm-doc/199985
+按顺序在vscode中输入：
+1. mkdir ~/.npm-global
+2. npm config set prefix '~/.npm-global'
+3. export PATH=~/.npm-global/bin:$PATH
+4. source ~/.profile
+最后：ng serve
+
+前端登陆地址：http://localhost:4200/
+后端登陆地址：http://localhost:8080/
+
 
 前端模板来源：https://www.bootdey.com/snippets/view/bs4-contact-cards
 
